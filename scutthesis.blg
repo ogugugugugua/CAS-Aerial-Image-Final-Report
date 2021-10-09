@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: .\scutthesis.aux
+The style file: scutthesis.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: scutthesis.bib
+Warning--I didn't find a database entry for "yang2018automatic"
+Warning--I didn't find a database entry for "dai2017deformable"
+You can't pop an empty literal stack for entry liuhigh
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry xiadota
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry xia2018dota
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry hu2018squeeze
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry yu2015multi
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry yu2015multi
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry 21dai2017deformable
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry 35cai2018cascade
+while executing---line 3563 of file scutthesis.bst
+Warning--there's a number but no volume in 34haralick1973textural
+You can't pop an empty literal stack for entry 34haralick1973textural
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry 44goodfellow2014generative
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry 44goodfellow2014generative
+while executing---line 3563 of file scutthesis.bst
+You can't pop an empty literal stack for entry 45ledig2017photo
+while executing---line 3563 of file scutthesis.bst
+You've used 18 entries,
+            6749 wiz_defined-function locations,
+            1309 strings with 12105 characters,
+and the built_in function-call counts, 6789 in all, are:
+= -- 632
+> -- 241
+< -- 6
++ -- 131
+- -- 56
+* -- 507
+:= -- 950
+add.period$ -- 61
+call.type$ -- 18
+change.case$ -- 18
+chr.to.int$ -- 17
+cite$ -- 19
+duplicate$ -- 281
+empty$ -- 771
+format.name$ -- 101
+if$ -- 1564
+int.to.chr$ -- 2
+int.to.str$ -- 19
+missing$ -- 18
+newline$ -- 106
+num.names$ -- 36
+pop$ -- 142
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 228
+stack$ -- 0
+substring$ -- 453
+swap$ -- 20
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 72
+warning$ -- 1
+while$ -- 49
+width$ -- 0
+write$ -- 251
+(There were 12 error messages)

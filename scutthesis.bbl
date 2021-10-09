@@ -1,0 +1,123 @@
+\begin{thebibliography}{18}
+\setlength{\itemsep}{1ex}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Liu et al.(2017)]{liuhigh}
+Liu Z, Yuan L, Weng L, et al.
+\newblock A high resolution optical satellite image dataset for ship
+  recognition and some new baselines[A].
+\newblock
+\newblock In: International conference on pattern recognition applications and
+  methods[C], 2017. 2:324--331.
+
+\bibitem[Xia et al.(2018){\natexlab{a}}]{xiadota}
+Xia G~S, Bai X, Ding J, et al.
+\newblock DOTA: A large-scale dataset for object detection in aerial images[A].
+\newblock
+\newblock In: Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition[C], 2018. 3974--3983.
+
+\bibitem[Rabbi et al.(2020)]{rabbi}
+Rabbi J, Ray N, Schubert M, et al.
+\newblock Small-object detection in remote sensing images with end-to-end
+  edge-enhanced GAN and object detector network[J].
+\newblock Remote Sensing, 2020, 12(9):1432.
+
+\bibitem[Li et al.(2017)]{li2017rotation}
+Li K, Cheng G, Bu S, et al.
+\newblock Rotation-insensitive and context-augmented object detection in remote
+  sensing images[J].
+\newblock IEEE Transactions on Geoscience and Remote Sensing, 2017,
+  56(4):2337--2348.
+
+\bibitem[Xia et al.(2018){\natexlab{b}}]{xia2018dota}
+Xia G~S, Bai X, Ding J, et al.
+\newblock DOTA: A large-scale dataset for object detection in aerial images[A].
+\newblock
+\newblock In: Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition[C], 2018. 3974--3983.
+
+\bibitem[Hu et al.(2018)]{hu2018squeeze}
+Hu J, Shen L, Sun G.
+\newblock Squeeze-and-excitation networks[A].
+\newblock
+\newblock In: Proceedings of the IEEE conference on computer vision and pattern
+  recognition[C], 2018. 7132--7141.
+
+\bibitem[Yu and Koltun(2015)]{yu2015multi}
+Yu F, Koltun V.
+\newblock Multi-scale context aggregation by dilated convolutions[J].
+\newblock arXiv preprint arXiv:1511.07122, 2015.
+
+\bibitem[Dai et al.(2017)]{21dai2017deformable}
+Dai J, Qi H, Xiong Y, et al.
+\newblock Deformable convolutional networks[A].
+\newblock
+\newblock In: Proceedings of the IEEE international conference on computer
+  vision[C], 2017. 764--773.
+
+\bibitem[Cai and Vasconcelos(2018)]{35cai2018cascade}
+Cai Z, Vasconcelos N.
+\newblock Cascade r-cnn: Delving into high quality object detection[A].
+\newblock
+\newblock In: Proceedings of the IEEE conference on computer vision and pattern
+  recognition[C], 2018. 6154--6162.
+
+\bibitem[周兵 et al.(2018)]{31周兵2018图像复杂度研究综述}
+周兵, 刘玉霞, 杨欣欣, et al.
+\newblock 图像复杂度研究综述[J].
+\newblock 计算机科学, 2018, 45(9):30--37.
+
+\bibitem[Haralick et al.(1973)]{34haralick1973textural}
+Haralick R~M, Shanmugam K, Dinstein I~H.
+\newblock Textural features for image classification[J].
+\newblock IEEE Transactions on systems, man, and cybernetics, 1973(6):610--621.
+
+\bibitem[Baraldi and Panniggiani(1995)]{39baraldi1995investigation}
+Baraldi A, Panniggiani F.
+\newblock An investigation of the textural characteristics associated with gray
+  level cooccurrence matrix statistical parameters[J].
+\newblock IEEE transactions on geoscience and remote sensing, 1995,
+  33(2):293--304.
+
+\bibitem[高程程 and
+  惠晓威(2010)]{40高程程2010基于灰度共生矩阵的纹理特征提取}
+高程程, 惠晓威.
+\newblock 基于灰度共生矩阵的纹理特征提取[J].
+\newblock 计算机系统应用, 2010, 19(6):195--198.
+
+\bibitem[Oleiwi(2018)]{41oleiwi2018alzheimer}
+Oleiwi W~K.
+\newblock Alzheimer Disease Diagnosis using the K-means,‎ GLCM and K\_NN[J].
+\newblock Journal of University of Babylon for Pure and Applied Sciences, 2018,
+  26(2):57--65.
+
+\bibitem[Vidyashanakara and Kumar(2018)]{42vidyashanakara2018leaf}
+Vidyashanakara N~M, Kumar G~H.
+\newblock Leaf classification based on GLCM texture and SVM[J].
+\newblock International Journal on Future Revolution in Computer Science \&
+  Communication Engineering, 2018, 4(3):156--159.
+
+\bibitem[钟宝江 et al.(2016)]{43钟宝江2016图像插值技术综述}
+钟宝江, 陆志芳, 季家欢.
+\newblock 图像插值技术综述[J].
+\newblock 数据采集与处理, 2016, 31(6):1083--1096.
+
+\bibitem[Goodfellow et al.(2014)]{44goodfellow2014generative}
+Goodfellow I~J, Pouget-Abadie J, Mirza M, et al.
+\newblock Generative adversarial networks[J].
+\newblock arXiv preprint arXiv:1406.2661, 2014.
+
+\bibitem[Ledig et al.(2017)]{45ledig2017photo}
+Ledig C, Theis L, Husz{\'a}r F, et al.
+\newblock Photo-realistic single image super-resolution using a generative
+  adversarial network[A].
+\newblock
+\newblock In: Proceedings of the IEEE conference on computer vision and pattern
+  recognition[C], 2017. 4681--4690.
+
+\end{thebibliography}

@@ -1,0 +1,1589 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass scutthesis
+\options pdfcover
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package none
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "博士论文标题"
+\pdf_author "你的名字"
+\pdf_subject "华南理工大学博士学位论文"
+\pdf_keywords "关键字1, 关键字2"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle false
+\pdf_quoted_options "unicode=false,linkcolor=blue, anchorcolor=black, citecolor=olive, filecolor=magenta, menucolor=red, urlcolor=magenta, pdfstartview=FitH"
+\papersize default
+\use_geometry false
+\use_package amsmath 0
+\use_package amssymb 0
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Latex 与 Lyx 排版研究
+\end_layout
+
+\begin_layout Author
+范子娟
+\end_layout
+
+\begin_layout Supervisor
+指导教师：余翔宇副教授
+\end_layout
+
+\begin_layout Institue
+华南理工大学
+\end_layout
+
+\begin_layout Date
+2020年3月7日
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+frontmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout AbstractCN
+论文排版对科技工作者来说一直是一个公认的繁琐事情。使用\SpecialChar LaTeX
+排版的突出缺点是控制符和文本符同时显现，容易干扰用户文本内容输入。鉴于此，本文提出了一种新颖的LyX+Xe\SpecialChar LaTeX
+
++\SpecialChar LaTeX
+组合的论文排版编辑方式。该排版方式取\SpecialChar LyX
+之长弥补\SpecialChar LaTeX
+的不足点，使得同时具有MS
+\begin_inset space \space{}
+\end_inset
+
+Word和\SpecialChar TeX
+排版两方面优势，同时基于Uincode的Xe\SpecialChar LaTeX
+引擎不仅使得文字兼容性增强，而且使用更方便。本文还以设计一套符合华南理工大学博士论文规范的\SpecialChar LaTeX
+/\SpecialChar LyX
+模板为例，验证
+了该组合方式的可行性。
+\end_layout
+
+\begin_layout KeywordsCN
+\SpecialChar LaTeX
+；\SpecialChar LyX
+；排版；论文
+\end_layout
+
+\begin_layout AbstractEN
+Typesetting is a long-standing notorious troublesome for the scientific
+ researchers.
+ The noticeable drawback in \SpecialChar LaTeX
+ typesetting is that control characters and
+ text characters appear in the same time, likely breaking user to input
+ text.
+ In view of this, we propose a novel combination of \SpecialChar LyX
+ + Xe\SpecialChar LaTeX
+ + \SpecialChar LaTeX
+ in editing
+ paper.
+ In this way, \SpecialChar LaTeX
+ learnes from Lyx's strong points to offset its weakness,
+ with advantages of both MS Word and \SpecialChar TeX
+ typesetting.
+ In additional Xe\SpecialChar LaTeX
+ engine, based on Uincode, not only improves compatibility
+ but also makes it more convenient to be used.
+ This work also presents a set of \SpecialChar LaTeX
+/\SpecialChar LyX
+ templates of South China University
+ of Technology doctoral thesis, in order to verify the feasibility of the
+ combination.
+\end_layout
+
+\begin_layout KeywordsEN
+\SpecialChar LaTeX
+; \SpecialChar LyX
+; Typesetting; Paper
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+mainmatter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+绪论
+\end_layout
+
+\begin_layout Section
+研究背景和意义
+\end_layout
+
+\begin_layout Standard
+随着现代智慧城市的建设，公共安全问题成为人们日益关注的问题。当监控还未普及时，抢劫、盗窃、交通违规等妨碍公共安全的异常事件发生后取证非常困难。近年来，视频监控由
+于其直观可视、应用场景丰富等特点在公共场所被大力推广。2015年九部委联合出台意见，提出到2020年，基本实现“全域覆盖、全网共享、全时可用、全程可控”的公共安
+全视频监控建设联网应用。人们可以从摄像头监控中获取到异常事件发生时的录像，这大大方便了人们对于异常事件的处理。 
+\end_layout
+
+\begin_layout Standard
+然而，监控的视频量巨大，绝大部分是正常事件，异常事件非常少见。要从广大的视频中提取到稀少的异常事件需要耗费大量的时间和精力一帧帧筛选监控视频。而由于缺少人力以及
+人工无法时时刻刻关注视频监控，要从视频监控中及时提取出异常事件是很困难的，往往是异常事件发生后有针对性的查看监控。为此，视频异常检测方向引起了研究者们的关注。视
+频异常检测，即能自动分辨视频中的正常事件和异常事件，不需要人为地分辨和比对，这样可以大量减少人力的耗费，并实现视频监控异常检测的自动化。视频异常检测在公共安全、
+交通管制、智慧城市等多个领域均有广大的应用前景。 
+\end_layout
+
+\begin_layout Standard
+对于一个视频而言，如果视频帧中包含异常事件则为异常帧，否则为正常帧，视频异常检测是一个二分类问题。但与典型的分类问题不同，如手写数字的识别是对手写的数字0到9进
+行分类，每个数字的类别都是确定的，且每个类别的样本数量分布大致均匀。而视频异常检测中正样本和负样本数量极其不平衡，通常，视频中均是正常事件，异常事件非常少见甚至
+没有，想要获取包含异常帧的训练集是很困难的。此外，正常事件和异常事件包含的事件种类繁多，不可枚举，并且难以按照某一标准定义。在不同场景中，正常和异常的定义甚至要
+对调。例如，在人行道上，行人是正常事件，车辆是异常事件。而在高速公路上，车辆是正常事件，行人是异常事件。视频异常检测的这些特点导致训练数据集中只包含正常视频，没
+有正负标签，难以采用传统的监督学习方法。研究者们往往专注于定义一个模型，该模型基于训练数据集建模来表示正常事件，再在测试数据集中检测不符合该模型的样本判为异常，
+即目前在视频异常检测领域中，异常事件定义为正常视频中没出现过的事件。 
+\end_layout
+
+\begin_layout Section
+视频异常检测国内外研究现状
+\end_layout
+
+\begin_layout Standard
+大多数基于视频的异常检测算法都包含局部特征提取步骤，然后基于提取到的特征建模，任何偏离模型的事件都被视为异常。下面对研究者们在视频异常检测领域的工作做一个概述。
+ 
+\end_layout
+
+\begin_layout Standard
+视频事件建模的一种直观表示是基于视频中运动对象轨迹的建模。由于缺乏对正常事件的先验知识，需要对所有对象轨迹进行无监督聚类，并将主流轨迹簇建模为正常事件模式，然后
+再从不符合正常模型的轨迹中检测出异常事件。运动对象轨迹有许多不同的表示形式。例如，2002年，Rao等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "rao2002view"
+literal "false"
+
+\end_inset
+
+提出使用轨迹的时空曲率特征描述人类运动信息。2007年，Cuntoor等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cuntoor2007epitomic"
+literal "false"
+
+\end_inset
+
+使用线性动力学系统对视频序列中的人类活动建模。2008年，Jung等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jung2008event"
+literal "false"
+
+\end_inset
+
+根据轨迹主要流向聚类，再根据每个类别中轨迹的位置和瞬时速度建立4D直方图作为该类别轨迹的特征。Saleemi等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "saleemi2008probabilistic"
+literal "false"
+
+\end_inset
+
+则利用时空特征的多元非参数概率密度函数对场景中运动对象的轨迹建模。2010年，Wu等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wu2010chaotic"
+literal "false"
+
+\end_inset
+
+对光流粒子轨迹进行聚类以获得人群流动的代表性轨迹，并计算代表性轨迹的混沌不变量用于人群流的建模和异常检测。此外，动态贝叶斯网络（Dynamic
+ Bayesian Network, DBN）
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jiang2009dynamic,bashir2007object,morris2008learning,xiang2008video"
+literal "false"
+
+\end_inset
+
+也常被用于对对象运动轨迹建模。而考虑到轨迹聚类算法，论文[10]中，Hu等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hu2006system"
+literal "false"
+
+\end_inset
+
+利用模糊K-means算法基于时间和空间信息对轨迹聚类，聚类数目是动态变化的，即当对象进入或离开场景时，将创建或删除聚类质心。谱聚类算法则是另一种流行的选择
+\begin_inset CommandInset citation
+LatexCommand cite
+key "porikli2004event,zhou2007detecting"
+literal "false"
+
+\end_inset
+
+，谱聚类算法只需要数据间的相似性度量，不需要将不等长的轨迹映射到特征维一致的数据空间中。2009年，Jiang等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "jiang2009dynamic"
+literal "false"
+
+\end_inset
+
+提出了一种轨迹动态层次聚类方法和用于有效聚类的贪婪搜索策略，进一步提高了轨迹聚类的鲁棒性。尽管轨迹跟踪能够识别高级语义的异常行为，例如，异常的长期轨迹，但是对于
+拥挤或混乱的场景，跟踪过程既困难又计算量大，并且由于对象大部分是正常行为活动，多数跟踪都是无用的。本文的算法也同样用到了轨迹跟踪，但与前人工作不同的是，本文的算
+法不需要将各个对象区分开来跟踪，而是基于时空块的粗略跟踪，而且不对所有的运动对象进行轨迹跟踪，而只需要跟踪异常对象，这样可以大大的降低跟踪难度。
+ 
+\end_layout
+
+\begin_layout Standard
+基于轨迹跟踪有种种缺陷，研究者们又提出了基于手工设计特征来表示视频事件的方法。有的算法基于像素级别提取特征，例如，2009年，Benezeth等人
+\begin_inset CommandInset citation
+LatexCommand cite
+key "benezeth2009abnormal"
+literal "false"
+
+\end_inset
+
+基于从背景减法中获得的运动标签，直接在像素级别进行事件表征和行为建模。Wang等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "wang2008unsupervised"
+literal "false"
+
+\end_inset
+
+将视频事件表示为基于像素的低层视觉特征上的分布。有的算法基于视频中的相关活动提取特征，2011年，Cui等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cui2011abnormal"
+literal "false"
+
+\end_inset
+
+提取视频中对象相互作用势能和对应动作之间的关系作为特征。2012年，Zhu等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhu2012context"
+literal "false"
+
+\end_inset
+
+将活动内和不同活动间的上下文特征相集成，共同对视频中的相关活动建模。有的算法则基于视频时空块提取特征。通常，描述时空块最常用的特征有两种，一种是描述运动的特征，
+另一种是描述外观的特征。而光流由于其直观有效的特点，是主要的运动特征之一。论文[17]和[18]中均使用光流多尺度直方图（Multi-scale
+ Histogram of Optical Flow ，MHOF）作为局部时空块的特征描述符
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cong2011sparse,zhu2014sparse"
+literal "false"
+
+\end_inset
+
+。外观特征一般用于描述对象的比例，轮廓，纹理和颜色，常用的特征有梯度直方图（Histogram of Gradient，HOG）
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhao2011online"
+literal "false"
+
+\end_inset
+
+、边缘方向直方图（Edge Orientation Histogram， EOH）
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cong2013video"
+literal "false"
+
+\end_inset
+
+等。由于视频的时序性和空间性，为了达到更好的异常检测效果，通常将运动特征和外观特征结合起来描述视频的时空信息。2009年，论文[21]中利用隐马尔可夫模型（Hi
+dden Markov Model，HMM）对局部时空块的时空梯度建模，描述视频局部区域内的运动过渡
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kratz2009anomaly"
+literal "false"
+
+\end_inset
+
+。2011年，Zhao等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhao2011online"
+literal "false"
+
+\end_inset
+
+利用HOG和光流直方图（Histogram of Optical Flow， HOF）描述检测到的时空兴趣点。2013年，Cong等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cong2013video"
+literal "false"
+
+\end_inset
+
+利用MHOF和EOH来表示视频块的外观和运动特征。Li等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "li2013anomaly"
+literal "false"
+
+\end_inset
+
+提出利用动态纹理混合模型表示视频的外观和运动特征，从而实现拥挤场景中异常行为的检测和定位。2016年，Zhu等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhu2016anomaly"
+literal "false"
+
+\end_inset
+
+在传统的光流直方图的基础上增加一维构成3D-HOF特征以更好的表示时空立方体的运动，而对于外观特征，则利用3D梯度来表示。 
+\end_layout
+
+\begin_layout Standard
+为了更好得对视频中的正常事件进行建模，2009年，Hospedales等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hospedales2009markov"
+literal "false"
+
+\end_inset
+
+提出一种新颖的马尔可夫聚类主题模型对视频进行层次建模和时间建模。马尔可夫随机场（Markov Random Field，MRF）模型在论文[13,25]中用于表
+征正常运动模式，并使用最大后验（Maximum A Posteriori，MAP）估计计算测试样本的异常程度
+\begin_inset CommandInset citation
+LatexCommand cite
+key "benezeth2009abnormal,kim2009observe"
+literal "false"
+
+\end_inset
+
+。在论文[21,26-27]中，提出了HMM来描述局部运动模式之间的时空关系和统计数据
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kratz2009anomaly,andrade2006modelling,zhang2005semi"
+literal "false"
+
+\end_inset
+
+。而Mehran等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "mehran2009abnormal"
+literal "false"
+
+\end_inset
+
+采用社会力模型描述人群中个体的运动动力学和相互作用力以检测异常。为了解决复杂行为中异常检测，2011年，Loy等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "loy2011detecting"
+literal "false"
+
+\end_inset
+
+使用级联的动态贝叶斯网络（cascade of Dynamic Bayesian Networks，CasDBNs）对分解的复杂行为模式进行建模。2013年，H
+achiya等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hachiya2013nsh"
+literal "false"
+
+\end_inset
+
+在局部敏感哈希（Locality Sensitive Hashing，LSH）的基础上提出正常敏感哈希（Normality Sensitive
+ Hashing，NSH），可以通过一组哈希函数将正常区域内的实例分配到同一桶中，而将越过区域边界的实例分配到不同桶中，以此来区分正常事件和异常事件。同样用到L
+SH思想的还有2016年的论文[31]，Zhang等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "zhang2016video"
+literal "false"
+
+\end_inset
+
+采用粒子群优化算法搜索最佳哈希函数，再用该哈希函数将正常活动散列到多个特征桶中，以过滤掉异常活动。2017年，Leyva等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "leyva2017video"
+literal "false"
+
+\end_inset
+
+利用高斯混合模型（Gaussian Mixture Models， GMM）、马尔科夫链及词袋等多个模型对前景区域的高度描述性特征建模，再综合各个模型的结果进行
+异常推断以获取更准确的结果。 
+\end_layout
+
+\begin_layout Standard
+随着深度学习成为计算机视觉领域的主流，其不需要先验知识依靠神经网络即可自动学习到强大而具有鲁棒性特征的特点吸引了众多研究者们的注意。由于视频异常检测问题的特殊性
+，训练集中只有正常视频，所以无法使用常规有监督的深度学习方法。 
+\end_layout
+
+\begin_layout Standard
+有的算法中神经网络主要作为特征提取器。2017年，Xu等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xu2017detecting"
+literal "false"
+
+\end_inset
+
+引入一种双重融合框架，使用三个堆叠降噪自动编码器（Stacked Denoising Auto Encoder，SDAE）分别学习外观特征、运动特征及其联合表示
+，再用一类支持向量机（One Class SVM）基于编码的特征计算异常分数，最后将三个子模型的异常分数融合考虑。同样，Smeureanu等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "smeureanu2017deep"
+literal "false"
+
+\end_inset
+
+通过预先训练好的卷积神经网络（Convolutional Neural Network，CNN）模型提取特征，再输入到One Class SVM中建模。考虑到视
+频的时序性，Sabokrou等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sabokrou2017deep"
+literal "false"
+
+\end_inset
+
+将3D自动编码器和逐层训练的3D CNN级联，并分为多个子级提取特征训练高斯分类器。因为异常检测的特殊性，绝大多数的研究者们都是基于无监督学习方法，2018年，
+Sultani等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sultani2018real"
+literal "false"
+
+\end_inset
+
+首次提出基于多实例学习的弱监督异常检测方案。使用预先训练好的3D CNN模型提取特征，再通过全连接层直接得到异常分数实现端到端的学习。 
+\end_layout
+
+\begin_layout Standard
+还有一部分算法中神经网络不仅用于提取特征还可以作为异常检测的判别器。神经网络作为异常检测判别器的情况可大致分为三类。一、神经网络作为重构模型用于异常检测。训练时
+，模型尽可能减少正常视频的重构误差，直觉上来说，模型应无法良好重建异常事件，所以异常视频的重构应大于正常视频。基于这一思想，2016年，Hasan等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "hasan2016learning"
+literal "false"
+
+\end_inset
+
+构建了一个卷积自动编码器（Convolutional Auto Encoder，CAE）提取视频中的特征并基于视频帧的重构分数计算异常得分，实现端到端的训练。与
+之思路一致的还有2017年的论文[38]，区别在于论文[38]构建的卷积时空自动编码器包含了空间和时间自动编码器两个部分，先编码视频帧的空间结构，再使用时间自动
+编码器学习空间结构的时间模式
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chong2017abnormal"
+literal "false"
+
+\end_inset
+
+。而Sabokrou等人
+\begin_inset CommandInset citation
+LatexCommand cite
+key "sabokrou2016video"
+literal "false"
+
+\end_inset
+
+认为异常视频除了重构误差较正常视频大外，编码特征的稀疏性也不如正常视频，所以将稀疏自动编码器和计算重构误差的自动编码器级联检测异常视频。二、神经网络作为预测模型
+用于异常检测。预测模型将视频视为时间序列，致力于通过当前帧预测未来帧，而异常事件往往是突发、不可预测的，所以异常事件的预测得分应较低。2016年，Medel等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "medel2016anomaly"
+literal "false"
+
+\end_inset
+
+提出了端到端的复合卷积长短期记忆（Convolutional Long Short-Term Memory，Conv-LSTM）网络，能够预测视频序列的演变，从
+而基于预测帧的重构误差判别异常。2018年，Liu等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "liu2018future"
+literal "false"
+
+\end_inset
+
+利用真实未来帧和预测未来帧之间的差异检测异常事件。为了训练时得到高质量的预测帧，将U-Net作为生成器来预测下一帧，并且在外观和运动方面采用了约束条件。三、神经
+网络作为生成模型用于异常检测。视频异常检测中生成模型中的生成器往往用于生成视频，而判别器则用于区分真实视频与生成视频的区别，而异常事件通常与生成视频的区别较大。
+2017年，Ravanbakhsh等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ravanbakhsh2017abnormal"
+literal "false"
+
+\end_inset
+
+训练两个GANs（Generative Adversarial Nets ，GANs），分别基于视频帧生成相应光流图和基于光流图生成相应视频帧，测试时将真实数据
+与GANs生成的数据进行比较判断异常。同样使用GANs，与论文[42]不同的是，论文[43]直接使用训练好GANs中的判别器模块检测异常
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ravanbakhsh2019training"
+literal "false"
+
+\end_inset
+
+。 
+\end_layout
+
+\begin_layout Standard
+传统手工特征是精心构造的有效，理解性强的特征，并且具有良好的表示视频信息的效果。而神经网络可以自动学习到手工特征无法涵盖的高级特征，但其学习到的特征不便于理解。
+故有研究者将两者相结合，优势互补，以获得更好的异常检测效果。2017年，Feng等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "feng2017learning"
+literal "false"
+
+\end_inset
+
+利用PCANet
+\begin_inset CommandInset citation
+LatexCommand cite
+key "chan2015pcanet"
+literal "false"
+
+\end_inset
+
+基于3D梯度特征学习得到高级描述符，再用深度GMM对正常事件建模。2018年，Ravanbakhsh等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ravanbakhsh2018plug"
+literal "false"
+
+\end_inset
+
+结合从CNN提取到的语义信息与光流特征检测视频局部异常。2019年，Ionescu等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ionescu2019detecting"
+literal "false"
+
+\end_inset
+
+则是将CNN模型提取的特征与3D梯度特征相结合，利用k-means对特征聚类后，对每个聚类使用One Class SVM建模。同年，Ionescu等
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ionescu2019object"
+literal "false"
+
+\end_inset
+
+又提出了一种以对象为中心的卷积自编码无监督特征学习框架，先对视频进行目标检测得到对象区域，再分别与前后隔三帧的视频帧计算得到梯度图，训练三个CAE模型，将编码特
+征拼接，后续操作与[47]一致，只是将One Class SVM换成了一对多分类器。这一算法得到了很好的结果，缺陷在于要先进行目标检测再训练三个CAE模型，模型
+过于复杂。 
+\end_layout
+
+\begin_layout Standard
+综合上述研究者们的工作来看，近年来，神经网络已成为视频异常检测领域的主流，将神经网络作为特征提取器或者重构模型的算法较多且获得良好的实验结果，而传统手工特征往往
+作为低级特征或者神经网络提取到特征的补充，以此获得检测结果的优化。 
+\end_layout
+
+\begin_layout Section
+本文主要工作
+\end_layout
+
+\begin_layout Standard
+本文提出了一种基于视频时空信息的视频异常检测框架。将HOF和变分自动编码器提取的特征相互补充，以便更完备的表示视频立方块的时空信息。而特征建模则采用k-mean
+s聚类算法，为了使异常分数更加可靠，异常分数除了包括测试样本在两个聚类模型中的偏离分数外还包括变分自动编码器的重构误差。此外，本文还提出了基于异常追踪的异常检测
+过程，分为两次检测，第二次检测是基于异常追踪进行更具有针对性的检测，以此降低异常事件的漏检率。 
+\end_layout
+
+\begin_layout Standard
+本文的主要工作分为以下三个部分。 
+\end_layout
+
+\begin_layout Standard
+一、本文设计了一个3D变分自动编码器，并将学习到的特征与描述运动信息强大的HOF特征相结合，不同于单独使用传统手工设计特征或神经网络提取到的特征的算法，本文使用
+的特征可以更完备的表示视频的时空信息。 
+\end_layout
+
+\begin_layout Standard
+二、为了充分挖掘异常信息，异常分数由三部分构成，测试样本在两个聚类模型中的偏离分数和在变分自动编码器中的重构误差。如此，编码特征的异常以及异常事件往往比正常事件
+更难重构这一信息均得到了利用。 
+\end_layout
+
+\begin_layout Standard
+三、本文提出了一种新颖的基于异常追踪的视频异常检测框架。检测过程分为两次，初次检测后，将异常分数较高的立方块初步判为异常，下一个时间段，对异常立方块周围更密集的
+采样并计算异常分数，取异常分数最大的立方块进行异常加权并继续跟踪。持续跟踪视频中的异常块可以降低异常事件的漏检率。 
+\end_layout
+
+\begin_layout Section
+本文结构安排
+\end_layout
+
+\begin_layout Standard
+本文结构安排如下： 
+\end_layout
+
+\begin_layout Standard
+第一章是绪论，介绍了视频异常检测研究背景及意义并对目前国内外的研究现状做了概述，最后简要的介绍了本文主要工作和结构安排。 
+\end_layout
+
+\begin_layout Standard
+第二章是对本文算法涉及到的相关领域知识做概述，包括视频异常检测框架、评价指标、光流及自动编码器。 
+\end_layout
+
+\begin_layout Standard
+第三章提出了一种基于视频时空信息的视频异常检测框架。重点介绍了整个异常检测框架的构造，变分自动编码器的结构、特征的建模以及异常分数的计算，最后通过实验证明所提算
+法的有效性。 
+\end_layout
+
+\begin_layout Standard
+第四章提出了一种基于异常追踪的视频异常检测框架。重点说明了两次异常检测过程以及异常追踪的实现方式，最后通过与其他算法的对比证明了所提视频异常检测框架的优越性。
+ 
+\end_layout
+
+\begin_layout Chapter
+相关研究概述
+\end_layout
+
+\begin_layout Section
+引言
+\end_layout
+
+\begin_layout Standard
+视频异常检测的目的是能自动检测出视频中的异常事件。要进行视频异常检测算法的研究，首先要了解视频异常检测的基本框架和用于评估算法性能的评价指标。由于本文算法中使用
+光流和变分自动编码器编码特征描述视频的时空信息，所以我们还对光流原理及相关算法、自动编码器原理及相关算法做了简要的概述。
+\end_layout
+
+\begin_layout Section
+视频异常检测概述
+\end_layout
+
+\begin_layout Standard
+视频异常检测是在视频中自动检测出异常事件，例如人行道上的车辆、自行车等，对每一帧判断是正常帧还是包含有异常事件的异常帧，这是一个二分类的问题。下面我们简要介绍一
+下视频异常检测基本框架及其评价指标。
+\end_layout
+
+\begin_layout Subsection
+视频异常检测基本框架
+\end_layout
+
+\begin_layout Standard
+视频异常检测算法一般分为三个模块。如图一所示，第一个模块是提取特征模块，从正常视频中提取出可供模型建模的良好时空特征；第二个模块是特征建模模块，通过某个模型拟合
+基于正常视频的时空特征的规律，便于检测出不符合该模型的异常样本；第三个模型即是异常评估模块，根据样本的模型拟合分数计算样本的异常得分，一般拟合得分高的样本异常得
+分低，拟合得分低的样本异常得分高。
+\end_layout
+
+\begin_layout Subsection
+视频异常检测评价指标
+\end_layout
+
+\begin_layout Standard
+在视频异常检测领域中，研究者们使用基于帧的接受者操作特性（receiver operating characteristic，ROC）曲线、曲线下的相应面积（A
+rea Under Curve，AUC）以及等错误率（EER）来评估算法的性能。 
+\end_layout
+
+\begin_layout Standard
+1、 ROC曲线 ROC曲线基于混淆矩阵绘制，二分类混淆矩阵如下表所示。 
+\end_layout
+
+\begin_layout Standard
+TP：真正，预测为正例的实际为正例 
+\end_layout
+
+\begin_layout Standard
+FP：假正，预测为正例的实际为负例 
+\end_layout
+
+\begin_layout Standard
+FN：假负，预测为负例的实际为正例 
+\end_layout
+
+\begin_layout Standard
+TN：真负，预测为负例的实际为负例 
+\end_layout
+
+\begin_layout Standard
+ROC曲线横坐标为假正率（False Positive Rate，FPR），纵坐标为真正率（True Positive Rate，TPR）。曲线必经过坐标（0,
+ 0）和（1, 1），曲线越与折线（0, 0）-（0, 1）-（1, 1）相近越好，FPR和TPR公式如下： 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+FPR=\frac{FP}{FP+TN}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+TPR=\frac{TP}{TP+FN}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+FPR代表实际为负例的样本被预测为正例的比率，TPR代表是实际为正例的样本被预测为正例的比率。
+\end_layout
+
+\begin_layout Standard
+2、AUC 
+\end_layout
+
+\begin_layout Standard
+AUC是ROC曲线下的面积，面积数值范围在0.5到1之间，数值越接近1说明算法性能越好，越接近0.5说明算法无用，与随机的结果无区别。 
+\end_layout
+
+\begin_layout Standard
+3、EER 
+\end_layout
+
+\begin_layout Standard
+等错误率是FPR=1-TPR时的FPR值，即在ROC曲线上将坐标（0, 1）和（1, 0）相连后与曲线交点处的FPR值。等错误率越接近0越好。
+\end_layout
+
+\begin_layout Section
+光流概述
+\end_layout
+
+\begin_layout Standard
+运动分析是视频异常检测的主要任务之一。光流是描述图像中对象运动的常见表示形式，通过测量连续图像帧中像素点的位移描述运动信息。本节中简要的介绍了光流的定义及光流算
+法的分类。
+\end_layout
+
+\begin_layout Subsection
+光流的定义
+\end_layout
+
+\begin_layout Standard
+光流这个定义源自于通过视网膜上图像成像对外界世界视觉感知的生理描述。当人用眼睛观察环境中的运动物体时，物体的运动映射到视网膜上体现为图像的流动，也可以看作是图像
+中像素点光强度的流动，所以称为光流。简而言之，光流是指真实场景中的运动对象投影到成像平面上的像素点运动的瞬时速度。从这个意义上讲，虽然光流必定是由观察者和被观察
+场景的对象之间的相对运动引起的，但它仅表示为成像平面中光强度的运动，而不是3D场景中的实际运动。在3D场景中，对象的运动用运动场描述，而成像平面中像素点的运动用
+光流场描述，通过计算光流场近似估计对象在真实场景中的运动。1981年，Horn and Schunck（HS）建立了第一个实用的光流模型
+\begin_inset CommandInset citation
+LatexCommand cite
+key "horn1981determining"
+literal "false"
+
+\end_inset
+
+，模型基于亮度恒定假设（Brightness Constancy Assumption ，BCA），即像素的亮度在较短的时间间隔内保持恒定，这一假设是之后光流算
+法的基本假设。
+\end_layout
+
+\begin_layout Standard
+假设帧
+\begin_inset Formula $t$
+\end_inset
+
+中位于(
+\begin_inset Formula $x,y$
+\end_inset
+
+)处的像素点在下一帧中移动
+\begin_inset Formula $\triangle x$
+\end_inset
+
+，
+\begin_inset Formula $\triangle y$
+\end_inset
+
+和
+\begin_inset Formula $\triangle t$
+\end_inset
+
+，根据亮度恒定假设，可得到光流法的基本约束方程。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I(x,y,t)=I(x+\triangle x,y+\triangle y,t+\triangle t)\label{eq:光流法的基本约束方程}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+其中，
+\begin_inset Formula $I(x,y,t)$
+\end_inset
+
+表示帧
+\begin_inset Formula $t$
+\end_inset
+
+中位于(
+\begin_inset Formula $x,y$
+\end_inset
+
+)处的像素点的光强度。公式
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:光流法的基本约束方程"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+的等号右边可以用泰勒公式展开为公式
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:泰勒展开"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+I(x+\triangle x,y+\triangle y,t+\triangle t)=I(x,y,t)+\frac{\partial I}{\partial x}\triangle x+\frac{\partial I}{\partial y}\triangle y+\frac{\partial I}{\partial t}\triangle t\label{eq:泰勒展开}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+将公式
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:光流法的基本约束方程"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+和
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:泰勒展开"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+合并可得下列方程。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial I}{\partial x}\triangle x+\frac{\partial I}{\partial y}\triangle y+\frac{\partial I}{\partial t}\triangle t=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+两边同除
+\begin_inset Formula $\triangle t$
+\end_inset
+
+，可以得到光流沿x轴和y轴的瞬时速度
+\begin_inset Formula $u$
+\end_inset
+
+和
+\begin_inset Formula $v$
+\end_inset
+
+。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial I}{\partial x}\frac{\triangle x}{\triangle t}+\frac{\partial I}{\partial y}\frac{\triangle y}{\triangle t}+\frac{\partial I}{\partial t}=\frac{\partial I}{\partial x}u+\frac{\partial I}{\partial y}v+\frac{\partial I}{\partial t}=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+其中
+\begin_inset Formula $\frac{\partial I}{\partial x}\text{,}\frac{\partial I}{\partial y},\frac{\partial I}{\partial t}$
+\end_inset
+
+可以通过图像数据求得，
+\begin_inset Formula $u$
+\end_inset
+
+和
+\begin_inset Formula $v$
+\end_inset
+
+是未知变量。
+\end_layout
+
+\begin_layout Subsection
+光流算法的分类
+\end_layout
+
+\begin_layout Standard
+光流法的基本约束方程主要缺点是存在两个未知量（
+\begin_inset Formula $u$
+\end_inset
+
+和
+\begin_inset Formula $v$
+\end_inset
+
+），光流法通过引入用于估计
+\begin_inset Formula $u$
+\end_inset
+
+和
+\begin_inset Formula $v$
+\end_inset
+
+的附加条件来求解方程。根据引入约束条件的不同可以将光流法分为以下四种：基于梯度的方法，基于区域的方法，基于特征的方法以及基于频率的方法。此外，近年来基于CNN的
+方法也取得了令人瞩目的成绩。
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "scutthesis"
+options "scutthesis"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapterx
+攻读博士学位期间取得的研究成果
+\end_layout
+
+\begin_layout Standard
+已发表（包括已接受待发表）的论文，以及已投稿、或已成文打算投稿、或拟成文投稿的论文情况（只填写与学位论文内容相关的部分）：
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="7">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="middle" width="0.5cm">
+<column alignment="center" valignment="middle" width="2.3cm">
+<column alignment="center" valignment="middle" width="3.5cm">
+<column alignment="center" valignment="middle" width="2.6cm">
+<column alignment="center" valignment="middle" width="2cm">
+<column alignment="center" valignment="middle" width="1.3cm">
+<column alignment="center" valignment="middle" width="0.9cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+序号
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+作者（全体作者，按顺序排列）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+题 目
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+发表或投稿刊物名称、级别
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+发表的卷期、年月、页码
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+相当于学位论文的哪一部分（章、节）
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+被索引收录情况
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+作者名
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+论文题目1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+刊物名
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+发表时间
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第2章
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SCI
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+作者名
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+论文题目2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+刊物名
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+发表时间
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+第3章
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SCI
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapterx
+致谢
+\end_layout
+
+\begin_layout Standard
+感谢导师对我的悉心指导，同时感谢华工校内外多位同学对该模板的测试和提供的改进。
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+徐川页
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+2010年6月8日
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
