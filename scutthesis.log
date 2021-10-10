@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.5)  8 OCT 2021 20:52
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.8)  10 OCT 2021 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1408,168 +1408,172 @@ File: figure/F25.eps Graphic file (type eps)
 <figure/F25.eps>
  [38] [39]
 第\CJKnumber {6}章 6.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 872.
-
 [40
 
 ] [41]
+第\CJKnumber {7}章 7.
 
-Package natbib Warning: Citation `yang2018automatic' on page 42 undefined on in
-put line 911.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 903.
 
+[42
 
-Package natbib Warning: Citation `ding2019learning' on page 42 undefined on inp
-ut line 911.
+] [43]
 
-
-Package natbib Warning: Citation `yang2018r2cnn++' on page 42 undefined on inpu
-t line 911.
-
-
-Package natbib Warning: Citation `yang2019scrdet' on page 42 undefined on input
- line 911.
+Package natbib Warning: Citation `yang2018automatic' on page 44 undefined on in
+put line 942.
 
 
-Package natbib Warning: Citation `yang2019r3det' on page 42 undefined on input 
-line 911.
+Package natbib Warning: Citation `ding2019learning' on page 44 undefined on inp
+ut line 942.
 
 
-Package natbib Warning: Citation `yang2018automatic' on page 42 undefined on in
-put line 932.
+Package natbib Warning: Citation `yang2018r2cnn++' on page 44 undefined on inpu
+t line 942.
 
 
-Package natbib Warning: Citation `ding2019learning' on page 42 undefined on inp
-ut line 932.
+Package natbib Warning: Citation `yang2019scrdet' on page 44 undefined on input
+ line 942.
 
 
-Package natbib Warning: Citation `yang2018r2cnn++' on page 42 undefined on inpu
-t line 932.
+Package natbib Warning: Citation `yang2019r3det' on page 44 undefined on input 
+line 942.
 
 
-Package natbib Warning: Citation `yang2019scrdet' on page 42 undefined on input
- line 932.
+Package natbib Warning: Citation `yang2018automatic' on page 44 undefined on in
+put line 963.
 
 
-Package natbib Warning: Citation `yang2019r3det' on page 42 undefined on input 
-line 932.
+Package natbib Warning: Citation `ding2019learning' on page 44 undefined on inp
+ut line 963.
 
 
-Package natbib Warning: Citation `yang2018automatic' on page 42 undefined on in
-put line 944.
+Package natbib Warning: Citation `yang2018r2cnn++' on page 44 undefined on inpu
+t line 963.
 
 
-Package natbib Warning: Citation `ding2019learning' on page 42 undefined on inp
-ut line 944.
+Package natbib Warning: Citation `yang2019scrdet' on page 44 undefined on input
+ line 963.
 
 
-Package natbib Warning: Citation `yang2018r2cnn++' on page 42 undefined on inpu
-t line 944.
+Package natbib Warning: Citation `yang2019r3det' on page 44 undefined on input 
+line 963.
 
 
-Package natbib Warning: Citation `yang2019scrdet' on page 42 undefined on input
- line 944.
+Package natbib Warning: Citation `yang2018automatic' on page 44 undefined on in
+put line 975.
 
 
-Package natbib Warning: Citation `yang2019r3det' on page 42 undefined on input 
-line 944.
+Package natbib Warning: Citation `ding2019learning' on page 44 undefined on inp
+ut line 975.
 
-[42]
+
+Package natbib Warning: Citation `yang2018r2cnn++' on page 44 undefined on inpu
+t line 975.
+
+
+Package natbib Warning: Citation `yang2019scrdet' on page 44 undefined on input
+ line 975.
+
+
+Package natbib Warning: Citation `yang2019r3det' on page 44 undefined on input 
+line 975.
+
+[44]
 File: figure/3-8.eps Graphic file (type eps)
 <figure/3-8.eps>
- [43] [44]
+ [45] [46]
 File: figure/3-9.eps Graphic file (type eps)
 <figure/3-9.eps>
- [45
+ [47
 
 ]
 File: figure/4-6.eps Graphic file (type eps)
 <figure/4-6.eps>
- [46]
+ [48]
 
-Package natbib Warning: Citation `yang2018automatic' on page 47 undefined on in
-put line 1040.
-
-
-Package natbib Warning: Citation `ding2019learning' on page 47 undefined on inp
-ut line 1040.
+Package natbib Warning: Citation `yang2018automatic' on page 49 undefined on in
+put line 1071.
 
 
-Package natbib Warning: Citation `yang2018r2cnn++' on page 47 undefined on inpu
-t line 1040.
+Package natbib Warning: Citation `ding2019learning' on page 49 undefined on inp
+ut line 1071.
 
 
-Package natbib Warning: Citation `yang2019scrdet' on page 47 undefined on input
- line 1040.
+Package natbib Warning: Citation `yang2018r2cnn++' on page 49 undefined on inpu
+t line 1071.
 
 
-Package natbib Warning: Citation `yang2019r3det' on page 47 undefined on input 
-line 1040.
+Package natbib Warning: Citation `yang2019scrdet' on page 49 undefined on input
+ line 1071.
+
+
+Package natbib Warning: Citation `yang2019r3det' on page 49 undefined on input 
+line 1071.
 
 File: figure/4-7.eps Graphic file (type eps)
 <figure/4-7.eps>
 
-LaTeX Warning: Float too large for page by 2.03273pt on input line 1045.
+LaTeX Warning: Float too large for page by 2.03273pt on input line 1076.
 
 
-Package natbib Warning: Citation `yang2018automatic' on page 47 undefined on in
-put line 1058.
+Package natbib Warning: Citation `yang2018automatic' on page 49 undefined on in
+put line 1089.
 
 
-Package natbib Warning: Citation `ding2019learning' on page 47 undefined on inp
-ut line 1058.
+Package natbib Warning: Citation `ding2019learning' on page 49 undefined on inp
+ut line 1089.
 
 
-Package natbib Warning: Citation `yang2018r2cnn++' on page 47 undefined on inpu
-t line 1058.
+Package natbib Warning: Citation `yang2018r2cnn++' on page 49 undefined on inpu
+t line 1089.
 
 
-Package natbib Warning: Citation `yang2019scrdet' on page 47 undefined on input
- line 1058.
+Package natbib Warning: Citation `yang2019scrdet' on page 49 undefined on input
+ line 1089.
 
 
-Package natbib Warning: Citation `yang2019r3det' on page 47 undefined on input 
-line 1058.
+Package natbib Warning: Citation `yang2019r3det' on page 49 undefined on input 
+line 1089.
 
 File: figure/4-8.eps Graphic file (type eps)
 <figure/4-8.eps>
-[47] [48]
+[49] [50]
 File: figure/F15.png Graphic file (type bmp)
 <figure/F15.png>
- [49]
+ [51]
 File: figure/F16.eps Graphic file (type eps)
 <figure/F16.eps>
- [50] [51]
+ [52] [53]
 File: figure/F26.png Graphic file (type bmp)
 <figure/F26.png>
- [52] [53]
+ [54] [55]
 File: figure/F27.eps Graphic file (type eps)
 <figure/F27.eps>
 File: figure/F28.eps Graphic file (type eps)
 <figure/F28.eps>
- [54] [55] [56]
-第\CJKnumber {7}章 7.
-[57
+ [56] [57] [58]
+第\CJKnumber {8}章 8.
+[59
 
-] [58] (./scutthesis.bbl [59
+] [60] (./scutthesis.bbl [61
 
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
-[60] (./scutthesis.aux)
+[62] (./scutthesis.aux)
 Package rerunfilecheck Info: File `scutthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9D00AD2F9FAB826D475DA1AFC5D3B551;6842.
+(rerunfilecheck)             Checksum: 2FF444F642DBE6937D358559FEA3D99C;7639.
  ) 
 Here is how much of TeX's memory you used:
- 26776 strings out of 476493
- 483046 string characters out of 5820669
- 895451 words of memory out of 5000000
- 46740 multiletter control sequences out of 15000+600000
+ 26778 strings out of 476493
+ 483070 string characters out of 5820669
+ 896314 words of memory out of 5000000
+ 46742 multiletter control sequences out of 15000+600000
  416991 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,99p,2775b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on scutthesis.pdf (70 pages).
+Output written on scutthesis.pdf (72 pages).
