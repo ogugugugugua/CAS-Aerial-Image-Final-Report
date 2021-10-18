@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.5)  18 OCT 2021 09:53
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.8)  18 OCT 2021 10:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -998,42 +998,119 @@ other characters in Unicode lower plane
 ) (c:/texlive/2021/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
 File: xunicode-extra.def 2021/06/20 v3.8.7 extra definition for xunicode
 )
-(./scutthesis.aux)
+(./scutthesis.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 <
+       <<<<<< Updated upstream
+? 
+
+LaTeX Warning: Label `3.3.2' multiply defined.
+
+
+LaTeX Warning: Label `tab:3-1' multiply defined.
+
+
+LaTeX Warning: Label `tab:3-2' multiply defined.
+
+
+LaTeX Warning: Label `tab:3-3' multiply defined.
+
+
+LaTeX Warning: Label `fig:3-8' multiply defined.
+
+
+LaTeX Warning: Label `fig:3-9' multiply defined.
+
+
+LaTeX Warning: Label `tab:4-1' multiply defined.
+
+
+LaTeX Warning: Label `tab:4-2' multiply defined.
+
+
+LaTeX Warning: Label `fig:4-6' multiply defined.
+
+
+LaTeX Warning: Label `tab:4-3' multiply defined.
+
+
+LaTeX Warning: Label `tab:4-4' multiply defined.
+
+
+LaTeX Warning: Label `fig:4-7' multiply defined.
+
+
+LaTeX Warning: Label `fig:4-8' multiply defined.
+
+
+LaTeX Warning: Label `F15' multiply defined.
+
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `F16' multiply defined.
+
+
+LaTeX Warning: Label `F26' multiply defined.
+
+
+LaTeX Warning: Label `table2' multiply defined.
+
+
+LaTeX Warning: Label `table3' multiply defined.
+
+
+LaTeX Warning: Label `table4' multiply defined.
+
+
+LaTeX Warning: Label `F27' multiply defined.
+
+
+LaTeX Warning: Label `F28' multiply defined.
+
+)
 \openout1 = `scutthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-8.
+9.
  (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 28.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 28
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 29.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 29
 .
 
 (c:/texlive/2021/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    ... okay on input line 29.
 
 (c:/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -1084,63 +1161,63 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 28.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 28.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 28.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 28.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 28.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 28.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 28.
-LaTeX Font Info:    Redeclaring math accent \check on input line 28.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 28.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 28.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 28.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
+LaTeX Font Info:    Redeclaring math accent \check on input line 29.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 28.
+(Font)              `operators' in the math version `normal' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
-8.
+9.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 28.
+(Font)              `operators' in the math version `bold' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-28.
+29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 28.
+input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 28.
+ 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-28.
+29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 28.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 28.
+input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 28.
+e 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 28.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 29.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1161,7 +1238,7 @@ Package newfloat Info: `rotating' package detected.
 
 
 Writing index file scutthesis.idx
-Package hyperref Info: Link coloring OFF on input line 28.
+Package hyperref Info: Link coloring OFF on input line 29.
 (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1173,9 +1250,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count389
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (./scutthesis.out) (./scutthesis.out)
 \@outlinefile=\write4
@@ -1189,410 +1266,38 @@ File: thesis_cover.pdf Graphic file (type pdf)
 <use thesis_cover.pdf, page 1>
 File: thesis_cover.pdf Graphic file (type pdf)
 <use thesis_cover.pdf, page 1>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 1>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 1>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 1>
  [1
 
 ]
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 2>
+<use thesis_cover.pdf, page 1>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 2>
+<use thesis_cover.pdf, page 1>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 2>
+<use thesis_cover.pdf, page 1>
  [2]
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 3>
+<use thesis_cover.pdf, page 2>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 3>
+<use thesis_cover.pdf, page 2>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 3>
+<use thesis_cover.pdf, page 2>
  [3]
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 4>
+<use thesis_cover.pdf, page 3>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 4>
+<use thesis_cover.pdf, page 3>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 4>
+<use thesis_cover.pdf, page 3>
  [4]
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 5>
+<use thesis_cover.pdf, page 4>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 5>
+<use thesis_cover.pdf, page 4>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 5>
+<use thesis_cover.pdf, page 4>
  [5]
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 6>
+<use thesis_cover.pdf, page 5>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 6>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 6>
- [6]
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 7>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 7>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 7>
- [7]
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 8>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 8>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 8>
- [8]
-
-Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
-(fontspec)             options
-(fontspec)             [Script={CJK},AutoFakeBold={4},AutoFakeSlant={0.167}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"SimHei/OT:script=hani;language=dflt;embolden=4;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"SimHei/OT:script=hani;language=dflt;slant=0.167;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"SimHei/OT:script=hani;language=dflt;embolden=4;slant
-=0.167;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-
-(./scutthesis.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
- (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
-
-(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 1.
-
-
-(c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
-
-])
-\tf@toc=\write5
-\openout5 = `scutthesis.toc'.
-
- [2]
-第\CJKnumber {1}章 1.
-[1
-
-
-] [2] [3] [4] [5]
-第\CJKnumber {2}章 2.
-File: figure/IEEE截图.png Graphic file (type bmp)
-<figure/IEEE截图.png>
-
-Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
-(fontspec)             options
-(fontspec)             [Script={CJK},AutoFakeBold={4},AutoFakeSlant={0.167}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;embolden=4;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;slant=0.167;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;embolden=4;slant=
-0.167;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
-
-[6
-
-]
-File: figure/曾凯IEEE截图.png Graphic file (type bmp)
-<figure/曾凯IEEE截图.png>
-File: figure/张锟毕业论文截图.png Graphic file (type bmp)
-<figure/张锟毕业论文截图.png>
-File: figure/群期毕业论文截图.png Graphic file (type bmp)
-<figure/群期毕业论文截图.png>
-
-Overfull \hbox (5.4879pt too wide) in paragraph at lines 95--95
- [][]\TU/TimesNewRoman(0)/m/n/12 ,[] 
- []
-
-[7] [8]
-第\CJKnumber {3}章 3.
-File: figure/3-1.eps Graphic file (type eps)
-<figure/3-1.eps>
-[9
-
-]
-File: figure/3-2.eps Graphic file (type eps)
-<figure/3-2.eps>
-File: figure/3-3.eps Graphic file (type eps)
-<figure/3-3.eps>
- [10] [11] [12]
-File: figure/3-4.eps Graphic file (type eps)
-<figure/3-4.eps>
- [13] [14]
-File: figure/3-5.eps Graphic file (type eps)
-<figure/3-5.eps>
- [15] [16]
-第\CJKnumber {4}章 4.
-[17
-
-]
-File: figure/4-1.eps Graphic file (type eps)
-<figure/4-1.eps>
- [18]
-File: figure/4-2.eps Graphic file (type eps)
-<figure/4-2.eps>
-File: figure/4-3.eps Graphic file (type eps)
-<figure/4-3.eps>
- [19]
-File: figure/4-4.eps Graphic file (type eps)
-<figure/4-4.eps>
- [20] [21]
-File: figure/4-5.eps Graphic file (type eps)
-<figure/4-5.eps>
- [22] [23]
-第\CJKnumber {5}章 5.
-[24
-
-]
-File: figure/F9.eps Graphic file (type eps)
-<figure/F9.eps>
-File: figure/F10.eps Graphic file (type eps)
-<figure/F10.eps>
- [25] [26]
-File: figure/F11.eps Graphic file (type eps)
-<figure/F11.eps>
-File: figure/F12.png Graphic file (type bmp)
-<figure/F12.png>
- [27]
-File: figure/F13.png Graphic file (type bmp)
-<figure/F13.png>
- [28] [29] [30]
-第\CJKnumber {6}章 6.
-File: figure/F5.png Graphic file (type bmp)
-<figure/F5.png>
-File: figure/F6.png Graphic file (type bmp)
-<figure/F6.png>
-[31
-
-]
-File: figure/F29.eps Graphic file (type eps)
-<figure/F29.eps>
- [32]
-File: figure/F17.eps Graphic file (type eps)
-<figure/F17.eps>
- [33]
-File: figure/F18.png Graphic file (type bmp)
-<figure/F18.png>
-File: figure/F19.png Graphic file (type bmp)
-<figure/F19.png>
- [34]
-File: figure/F20.png Graphic file (type bmp)
-<figure/F20.png>
- [35] [36]
-File: figure/F21.png Graphic file (type bmp)
-<figure/F21.png>
-File: figure/F22.png Graphic file (type bmp)
-<figure/F22.png>
- [37]
-File: figure/F23.eps Graphic file (type eps)
-<figure/F23.eps>
- [38] [39]
-File: figure/F24.eps Graphic file (type eps)
-<figure/F24.eps>
- [40]
-File: figure/F25.eps Graphic file (type eps)
-<figure/F25.eps>
- [41] [42]
-第\CJKnumber {7}章 7.
-[43
-
-] [44]
-第\CJKnumber {8}章 8.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 637.
-
-[45
-
-] [46]
-
-Package natbib Warning: Citation `yang2018automatic' on page 47 undefined on in
-put line 676.
-
-
-Package natbib Warning: Citation `ding2019learning' on page 47 undefined on inp
-ut line 676.
-
-
-Package natbib Warning: Citation `yang2018r2cnn++' on page 47 undefined on inpu
-t line 676.
-
-
-Package natbib Warning: Citation `yang2019scrdet' on page 47 undefined on input
- line 676.
-
-
-Package natbib Warning: Citation `yang2019r3det' on page 47 undefined on input 
-line 676.
-
-
-Package natbib Warning: Citation `yang2018automatic' on page 47 undefined on in
-put line 697.
-
-
-Package natbib Warning: Citation `ding2019learning' on page 47 undefined on inp
-ut line 697.
-
-
-Package natbib Warning: Citation `yang2018r2cnn++' on page 47 undefined on inpu
-t line 697.
-
-
-Package natbib Warning: Citation `yang2019scrdet' on page 47 undefined on input
- line 697.
-
-
-Package natbib Warning: Citation `yang2019r3det' on page 47 undefined on input 
-line 697.
-
-
-Package natbib Warning: Citation `yang2018automatic' on page 47 undefined on in
-put line 709.
-
-
-Package natbib Warning: Citation `ding2019learning' on page 47 undefined on inp
-ut line 709.
-
-
-Package natbib Warning: Citation `yang2018r2cnn++' on page 47 undefined on inpu
-t line 709.
-
-
-Package natbib Warning: Citation `yang2019scrdet' on page 47 undefined on input
- line 709.
-
-
-Package natbib Warning: Citation `yang2019r3det' on page 47 undefined on input 
-line 709.
-
-[47]
-File: figure/3-8.eps Graphic file (type eps)
-<figure/3-8.eps>
- [48] [49]
-File: figure/3-9.eps Graphic file (type eps)
-<figure/3-9.eps>
- [50
-
-]
-File: figure/4-6.eps Graphic file (type eps)
-<figure/4-6.eps>
- [51]
-
-Package natbib Warning: Citation `yang2018automatic' on page 52 undefined on in
-put line 805.
-
-
-Package natbib Warning: Citation `ding2019learning' on page 52 undefined on inp
-ut line 805.
-
-
-Package natbib Warning: Citation `yang2018r2cnn++' on page 52 undefined on inpu
-t line 805.
-
-
-Package natbib Warning: Citation `yang2019scrdet' on page 52 undefined on input
- line 805.
-
-
-Package natbib Warning: Citation `yang2019r3det' on page 52 undefined on input 
-line 805.
-
-File: figure/4-7.eps Graphic file (type eps)
-<figure/4-7.eps>
-
-LaTeX Warning: Float too large for page by 2.03273pt on input line 810.
-
-
-Package natbib Warning: Citation `yang2018automatic' on page 52 undefined on in
-put line 823.
-
-
-Package natbib Warning: Citation `ding2019learning' on page 52 undefined on inp
-ut line 823.
-
-
-Package natbib Warning: Citation `yang2018r2cnn++' on page 52 undefined on inpu
-t line 823.
-
-
-Package natbib Warning: Citation `yang2019scrdet' on page 52 undefined on input
- line 823.
-
-
-Package natbib Warning: Citation `yang2019r3det' on page 52 undefined on input 
-line 823.
-
-File: figure/4-8.eps Graphic file (type eps)
-<figure/4-8.eps>
-[52] [53]
-File: figure/F15.png Graphic file (type bmp)
-<figure/F15.png>
- [54]
-File: figure/F16.eps Graphic file (type eps)
-<figure/F16.eps>
- [55] [56]
-File: figure/F26.png Graphic file (type bmp)
-<figure/F26.png>
- [57] [58]
-File: figure/F27.eps Graphic file (type eps)
-<figure/F27.eps>
-File: figure/F28.eps Graphic file (type eps)
-<figure/F28.eps>
- [59] [60] [61]
-第\CJKnumber {9}章 9.
-[62
-
-] [63] [64
-
-] (./scutthesis.bbl [65
-
-])
-
-Package natbib Warning: There were undefined citations.
-
-[66] (./scutthesis.aux)
-Package rerunfilecheck Info: File `scutthesis.out' has not changed.
-(rerunfilecheck)             Checksum: 91CA6136D29D57A2BA59D038AFDC8966;7555.
- ) 
-Here is how much of TeX's memory you used:
- 26862 strings out of 476493
- 486833 string characters out of 5820669
- 896362 words of memory out of 5000000
- 46822 multiletter control sequences out of 15000+600000
- 416991 words of font info for 124 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 87i,17n,99p,2775b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on scutthesis.pdf (76 pages).
+<use thesis_cover.pdf, p
