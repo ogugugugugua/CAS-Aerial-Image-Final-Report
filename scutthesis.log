@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.8)  18 OCT 2021 10:48
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.5)  18 OCT 2021 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1000,80 +1000,60 @@ File: xunicode-extra.def 2021/06/20 v3.8.7 extra definition for xunicode
 )
 (./scutthesis.aux
 
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.171 <
-       <<<<<< Updated upstream
-? 
-
-LaTeX Warning: Label `3.3.2' multiply defined.
+Package natbib Warning: Citation `liuhigh' multiply defined.
 
 
-LaTeX Warning: Label `tab:3-1' multiply defined.
+Package natbib Warning: Citation `xiadota' multiply defined.
 
 
-LaTeX Warning: Label `tab:3-2' multiply defined.
+Package natbib Warning: Citation `rabbi' multiply defined.
 
 
-LaTeX Warning: Label `tab:3-3' multiply defined.
+Package natbib Warning: Citation `li2017rotation' multiply defined.
 
 
-LaTeX Warning: Label `fig:3-8' multiply defined.
+Package natbib Warning: Citation `xia2018dota' multiply defined.
 
 
-LaTeX Warning: Label `fig:3-9' multiply defined.
+Package natbib Warning: Citation `hu2018squeeze' multiply defined.
 
 
-LaTeX Warning: Label `tab:4-1' multiply defined.
+Package natbib Warning: Citation `yu2015multi' multiply defined.
 
 
-LaTeX Warning: Label `tab:4-2' multiply defined.
+Package natbib Warning: Citation `21dai2017deformable' multiply defined.
 
 
-LaTeX Warning: Label `fig:4-6' multiply defined.
+Package natbib Warning: Citation `35cai2018cascade' multiply defined.
 
 
-LaTeX Warning: Label `tab:4-3' multiply defined.
+Package natbib Warning: Citation `31周兵2018图像复杂度研究综述' multiply defined.
 
 
-LaTeX Warning: Label `tab:4-4' multiply defined.
+Package natbib Warning: Citation `34haralick1973textural' multiply defined.
 
 
-LaTeX Warning: Label `fig:4-7' multiply defined.
+Package natbib Warning: Citation `39baraldi1995investigation' multiply defined.
 
 
-LaTeX Warning: Label `fig:4-8' multiply defined.
+
+Package natbib Warning: Citation `40高程程2010基于灰度共生矩阵的纹理特征提取' multiply defined.
 
 
-LaTeX Warning: Label `F15' multiply defined.
+Package natbib Warning: Citation `41oleiwi2018alzheimer' multiply defined.
 
 
-LaTeX Warning: Label `table1' multiply defined.
+Package natbib Warning: Citation `42vidyashanakara2018leaf' multiply defined.
 
 
-LaTeX Warning: Label `F16' multiply defined.
+Package natbib Warning: Citation `43钟宝江2016图像插值技术综述' multiply defined.
 
 
-LaTeX Warning: Label `F26' multiply defined.
+Package natbib Warning: Citation `44goodfellow2014generative' multiply defined.
 
 
-LaTeX Warning: Label `table2' multiply defined.
 
-
-LaTeX Warning: Label `table3' multiply defined.
-
-
-LaTeX Warning: Label `table4' multiply defined.
-
-
-LaTeX Warning: Label `F27' multiply defined.
-
-
-LaTeX Warning: Label `F28' multiply defined.
+Package natbib Warning: Citation `45ledig2017photo' multiply defined.
 
 )
 \openout1 = `scutthesis.aux'.
@@ -1266,38 +1246,275 @@ File: thesis_cover.pdf Graphic file (type pdf)
 <use thesis_cover.pdf, page 1>
 File: thesis_cover.pdf Graphic file (type pdf)
 <use thesis_cover.pdf, page 1>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 1>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 1>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 1>
  [1
 
 ]
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 1>
+<use thesis_cover.pdf, page 2>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 1>
+<use thesis_cover.pdf, page 2>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 1>
+<use thesis_cover.pdf, page 2>
  [2]
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 2>
+<use thesis_cover.pdf, page 3>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 2>
+<use thesis_cover.pdf, page 3>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 2>
+<use thesis_cover.pdf, page 3>
  [3]
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 3>
+<use thesis_cover.pdf, page 4>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 3>
+<use thesis_cover.pdf, page 4>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 3>
+<use thesis_cover.pdf, page 4>
  [4]
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 4>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 4>
-File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, page 4>
- [5]
 File: thesis_cover.pdf Graphic file (type pdf)
 <use thesis_cover.pdf, page 5>
 File: thesis_cover.pdf Graphic file (type pdf)
-<use thesis_cover.pdf, p
+<use thesis_cover.pdf, page 5>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 5>
+ [5]
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 6>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 6>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 6>
+ [6]
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 7>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 7>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 7>
+ [7]
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 8>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 8>
+File: thesis_cover.pdf Graphic file (type pdf)
+<use thesis_cover.pdf, page 8>
+ [8]
+
+Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
+(fontspec)             options
+(fontspec)             [Script={CJK},AutoFakeBold={4},AutoFakeSlant={0.167}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"SimHei/OT:script=hani;language=dflt;embolden=4;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"SimHei/OT:script=hani;language=dflt;slant=0.167;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"SimHei/OT:script=hani;language=dflt;embolden=4;slant
+=0.167;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+(./scutthesis.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+
+(c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 1.
+
+
+(c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [1
+
+])
+\tf@toc=\write5
+\openout5 = `scutthesis.toc'.
+
+ [2]
+第\CJKnumber {1}章 1.
+[1
+
+
+] [2] [3] [4] [5]
+第\CJKnumber {2}章 2.
+File: figure/IEEE截图.png Graphic file (type bmp)
+<figure/IEEE截图.png>
+
+Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
+(fontspec)             options
+(fontspec)             [Script={CJK},AutoFakeBold={4},AutoFakeSlant={0.167}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;embolden=4;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;slant=0.167;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;embolden=4;slant=
+0.167;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+[6
+
+]
+File: figure/曾凯IEEE截图.png Graphic file (type bmp)
+<figure/曾凯IEEE截图.png>
+File: figure/张锟毕业论文截图.png Graphic file (type bmp)
+<figure/张锟毕业论文截图.png>
+File: figure/群期毕业论文截图.png Graphic file (type bmp)
+<figure/群期毕业论文截图.png>
+
+Overfull \hbox (5.4879pt too wide) in paragraph at lines 105--105
+ [][]\TU/TimesNewRoman(0)/m/n/12 ,[] 
+ []
+
+[7] [8]
+第\CJKnumber {3}章 3.
+[9
+
+]
+File: figure/4-1.eps Graphic file (type eps)
+<figure/4-1.eps>
+ [10]
+File: figure/3-2.eps Graphic file (type eps)
+<figure/3-2.eps>
+File: figure/3-3.eps Graphic file (type eps)
+<figure/3-3.eps>
+ [11] [12]
+File: figure/3-4.eps Graphic file (type eps)
+<figure/3-4.eps>
+ [13] [14] [15]
+File: figure/3-5.eps Graphic file (type eps)
+<figure/3-5.eps>
+ [16]
+File: figure/4-2.eps Graphic file (type eps)
+<figure/4-2.eps>
+ [17]
+File: figure/4-3.eps Graphic file (type eps)
+<figure/4-3.eps>
+ [18]
+File: figure/4-4.eps Graphic file (type eps)
+<figure/4-4.eps>
+ [19]
+File: figure/4-5.eps Graphic file (type eps)
+<figure/4-5.eps>
+ [20] [21] [22]
+第\CJKnumber {4}章 4.
+[23
+
+]
+File: figure/F5.png Graphic file (type bmp)
+<figure/F5.png>
+File: figure/F6.png Graphic file (type bmp)
+<figure/F6.png>
+ [24]
+File: figure/F29.eps Graphic file (type eps)
+<figure/F29.eps>
+File: figure/F9.eps Graphic file (type eps)
+<figure/F9.eps>
+ [25]
+File: figure/F10.eps Graphic file (type eps)
+<figure/F10.eps>
+ [26]
+File: figure/F11.eps Graphic file (type eps)
+<figure/F11.eps>
+ [27]
+File: figure/F12.png Graphic file (type bmp)
+<figure/F12.png>
+ [28]
+File: figure/F13.png Graphic file (type bmp)
+<figure/F13.png>
+ [29] [30]
+File: figure/F17.eps Graphic file (type eps)
+<figure/F17.eps>
+ [31]
+File: figure/F18.png Graphic file (type bmp)
+<figure/F18.png>
+File: figure/F19.png Graphic file (type bmp)
+<figure/F19.png>
+ [32]
+File: figure/F20.png Graphic file (type bmp)
+<figure/F20.png>
+ [33] [34]
+File: figure/F21.png Graphic file (type bmp)
+<figure/F21.png>
+File: figure/F22.png Graphic file (type bmp)
+<figure/F22.png>
+File: figure/F23.eps Graphic file (type eps)
+<figure/F23.eps>
+ [35] [36] [37]
+File: figure/F24.eps Graphic file (type eps)
+<figure/F24.eps>
+
+[38]
+File: figure/F25.eps Graphic file (type eps)
+<figure/F25.eps>
+ [39] [40]
+第\CJKnumber {5}章 5.
+[41
+
+]
+File: figure/F30.png Graphic file (type bmp)
+<figure/F30.png>
+ [42]
+File: figure/F31.png Graphic file (type bmp)
+<figure/F31.png>
+File: figure/F32.png Graphic file (type bmp)
+<figure/F32.png>
+ [43]
+第\CJKnumber {6}章 6.
+[44
+
+] [45] [46
+
+] (./scutthesis.bbl [47
+
+])
+
+Package natbib Warning: There were multiply defined citations.
+
+[48] (./scutthesis.aux)
+
+Package rerunfilecheck Warning: File `scutthesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `scutthesis.out':
+(rerunfilecheck)             Before: 86612FCC4FCF683DED3917A14D4BDB58;4534
+(rerunfilecheck)             After:  01DDE7DE36919D3AB4AC19F22056A494;4456.
+ ) 
+Here is how much of TeX's memory you used:
+ 26704 strings out of 476493
+ 482433 string characters out of 5820669
+ 878246 words of memory out of 5000000
+ 46685 multiletter control sequences out of 15000+600000
+ 412576 words of font info for 100 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 87i,17n,99p,2680b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on scutthesis.pdf (58 pages).
