@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.5)  18 OCT 2021 22:02
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.10.5)  19 OCT 2021 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1000,60 +1000,7 @@ File: xunicode-extra.def 2021/06/20 v3.8.7 extra definition for xunicode
 )
 (./scutthesis.aux
 
-Package natbib Warning: Citation `liuhigh' multiply defined.
-
-
-Package natbib Warning: Citation `xiadota' multiply defined.
-
-
-Package natbib Warning: Citation `rabbi' multiply defined.
-
-
-Package natbib Warning: Citation `li2017rotation' multiply defined.
-
-
-Package natbib Warning: Citation `xia2018dota' multiply defined.
-
-
-Package natbib Warning: Citation `hu2018squeeze' multiply defined.
-
-
-Package natbib Warning: Citation `yu2015multi' multiply defined.
-
-
-Package natbib Warning: Citation `21dai2017deformable' multiply defined.
-
-
-Package natbib Warning: Citation `35cai2018cascade' multiply defined.
-
-
-Package natbib Warning: Citation `31周兵2018图像复杂度研究综述' multiply defined.
-
-
-Package natbib Warning: Citation `34haralick1973textural' multiply defined.
-
-
-Package natbib Warning: Citation `39baraldi1995investigation' multiply defined.
-
-
-
-Package natbib Warning: Citation `40高程程2010基于灰度共生矩阵的纹理特征提取' multiply defined.
-
-
-Package natbib Warning: Citation `41oleiwi2018alzheimer' multiply defined.
-
-
-Package natbib Warning: Citation `42vidyashanakara2018leaf' multiply defined.
-
-
-Package natbib Warning: Citation `43钟宝江2016图像插值技术综述' multiply defined.
-
-
-Package natbib Warning: Citation `44goodfellow2014generative' multiply defined.
-
-
-
-Package natbib Warning: Citation `45ledig2017photo' multiply defined.
+LaTeX Warning: Label `fig:毕业论文截图1' multiply defined.
 
 )
 \openout1 = `scutthesis.aux'.
@@ -1355,8 +1302,8 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ] [2] [3] [4] [5]
 第\CJKnumber {2}章 2.
-File: figure/IEEE截图.png Graphic file (type bmp)
-<figure/IEEE截图.png>
+File: figure/IEEE.png Graphic file (type bmp)
+<figure/IEEE.png>
 
 Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
 (fontspec)             options
@@ -1379,9 +1326,6 @@ Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
 0.167;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-[6
-
-]
 File: figure/曾凯IEEE截图.png Graphic file (type bmp)
 <figure/曾凯IEEE截图.png>
 File: figure/张锟毕业论文截图.png Graphic file (type bmp)
@@ -1393,7 +1337,13 @@ Overfull \hbox (5.4879pt too wide) in paragraph at lines 105--105
  [][]\TU/TimesNewRoman(0)/m/n/12 ,[] 
  []
 
-[7] [8]
+File: figure/张锟专利.png Graphic file (type bmp)
+<figure/张锟专利.png>
+File: figure/群期专利.png Graphic file (type bmp)
+<figure/群期专利.png>
+[6
+
+] [7] [8]
 第\CJKnumber {3}章 3.
 [9
 
@@ -1494,25 +1444,18 @@ File: figure/F32.png Graphic file (type bmp)
 
 ] (./scutthesis.bbl [47
 
-])
+]) [48] (./scutthesis.aux)
 
-Package natbib Warning: There were multiply defined citations.
+LaTeX Warning: There were multiply-defined labels.
 
-[48] (./scutthesis.aux)
-
-Package rerunfilecheck Warning: File `scutthesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `scutthesis.out':
-(rerunfilecheck)             Before: 86612FCC4FCF683DED3917A14D4BDB58;4534
-(rerunfilecheck)             After:  01DDE7DE36919D3AB4AC19F22056A494;4456.
+Package rerunfilecheck Info: File `scutthesis.out' has not changed.
+(rerunfilecheck)             Checksum: 05F63FB0B37536BFDC6651B8B9BEB28F;4456.
  ) 
 Here is how much of TeX's memory you used:
- 26704 strings out of 476493
- 482433 string characters out of 5820669
- 878246 words of memory out of 5000000
- 46685 multiletter control sequences out of 15000+600000
+ 26729 strings out of 476493
+ 483276 string characters out of 5820669
+ 878138 words of memory out of 5000000
+ 46708 multiletter control sequences out of 15000+600000
  412576 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,99p,2680b,792s stack positions out of 5000i,500n,10000p,200000b,80000s

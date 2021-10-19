@@ -85,13 +85,13 @@ DOTA数据集\cite{xiadota}是武汉大学夏桂松与华中科技大学白翔�
 \chapter{项目成果总结}
 通过本基金项目，我们课题组取得了一系列的成果，其中包括：
 
-1. 一篇已发表的IEEE Access论文，标题为《ROSD: Refined Oriented Staged Detector for Object Detection in Aerial Image》。该论文作者为张锟、曾群期及余翔宇。这篇论文详细介绍了课题组的两个研究成果，包括改进的多方向级联目标检测方法与基于特征对齐和目标长宽比的目标检测方法，通过对这两个方法进行详细的推导论述，搭配详尽的实验过程介绍及结果展示，这篇论文得以被接收。
+1. 一篇已发表的论文，标题为《ROSD: Refined Oriented Staged Detector for Object Detection in Aerial Image》，发表于IEEE Access。该论文作者为张锟、曾群期及余翔宇。这篇论文详细介绍了课题组的两个研究成果，包括改进的多方向级联目标检测方法与基于特征对齐和目标长宽比的目标检测方法，通过对这两个方法进行详细的推导论述，搭配详尽的实验过程介绍及结果展示，这篇论文得以被接收。
 
 \begin{figure}
-\centering{}\includegraphics[scale=0.6]{figure/IEEE截图.png}\caption[短标题]{\label{fig:IEEE1截图}张锟IEEE Access论文截图}
+\centering{}\includegraphics[scale=0.3]{figure/IEEE.png}\caption[短标题]{\label{fig:IEEE1截图}张锟IEEE Access论文截图}
 \end{figure}
 
-2. 课题组当前有一篇待发布的IEEE Access论文，论文标题为《Object Detection in Aerial Image with Ground Sample Distance Super-Resolution》。该论文作者为曾凯与曾群期。这篇论文详细介绍了课题组的另外两个研究成果，包括了改进的深度级联遥感目标检测网络以及基于遥感图像GSD预测的超分辨遥感目标检测方法。
+2. 课题组当前有一篇审稿中的IEEE Access论文，论文标题为《Object Detection in Aerial Image with Ground Sample Distance Super-Resolution》。该论文作者为曾凯与曾群期。这篇论文详细介绍了课题组的另外两个研究成果，包括了改进的深度级联遥感目标检测网络以及基于遥感图像GSD预测的超分辨遥感目标检测方法。
 
 \begin{figure}
 \centering{}\includegraphics[scale=0.6]{figure/曾凯IEEE截图.png}\caption[短标题]{\label{fig:IEEE2截图}曾凯与曾群期IEEE Access论文截图}
@@ -103,6 +103,11 @@ DOTA数据集\cite{xiadota}是武汉大学夏桂松与华中科技大学白翔�
 
 \begin{figure}
 \centering{}\includegraphics[scale=0.45]{figure/张锟毕业论文截图.png},\includegraphics[scale=0.45]{figure/群期毕业论文截图.png}\caption[短标题]{\label{fig:毕业论文截图1}张锟及曾群期毕业论文截图}
+\end{figure}
+
+4. 课题组成员张锟和曾群期分别基于这个基金项目各自发表了一篇专利。
+\begin{figure}
+\centering{}\includegraphics[scale=0.3]{figure/张锟专利.png},\includegraphics[scale=0.3]{figure/群期专利.png}\caption[短标题]{\label{fig:毕业论文截图1}张锟及曾群期专利截图}
 \end{figure}
 
 \chapter{遥感目标多方向性检测研究}
@@ -119,7 +124,7 @@ DOTA数据集\cite{xiadota}是武汉大学夏桂松与华中科技大学白翔�
 
 另外，我们在研究中发现，模型对于不同长宽比的检测目标得到的有方向检测框的结果有明显的的差距，在其它参数保持不变的情况下密集分布的小长宽比的目标的漏检率会远远小于大长宽比的目标，而且小长宽比的目标得到的检测框和数据集中标注的框之间的IoU值也比大长宽比的目标要好。这意味着模型在训练过程中没有对不同长宽比之间的角度偏移参数进行充分平等的学习，小长宽比目标的角度偏移量学习在实际情况下的表现更好。
 
-针对这个问题，本章还提出了一种基于特征对齐和目标长宽比的方法，首先利用了可形变卷积具有显著地几何形变建模能力的特性，基于可形变卷积设计了一个多分支结构来进行特征对齐，并且通过不同扩张率的空洞卷积对感受野进行扩增以适应不同层次的检测目标，其次在训练模型对损失函数进行了改进，以目标长宽比比值作为控制系数，让模型在训练阶段在角度偏移的学习上更加注重大长宽比的目标，以此来提高模型对于大长宽比目标的检测精度。通过这种组合的方法，我们有效地提高了对于遥感目标多层次特征提取的效果。 
+针对这个问题，本章还提出了一种基于特征对齐和目标长宽比的方法，首先利用了可形变卷积具有显著地几何形变建模能力的特性，基于可形变卷积设计了一个多分支结构来进行特征对齐，并且通过不同扩张率的空洞卷积对感受野进行扩增以适应不同层次的检测目标，其次在训练模型对损失函数进行了改进，以目标长宽比比值作为控制系数，让模型在训练阶段在角度偏移的学习上更加注重大长宽比的目标，以此来提高模型对于大长宽比目标的检测精度。通过这种组合的方法，我们有效地提高了对于遥感目标多层次特征提取的效果。
 
 \section{算法设计}
 
@@ -571,7 +576,7 @@ FPN的加入，有效保留了遥感图像中的多尺度特征，通过自顶�
 
 
 %\chapter{基于GSD预测的超分辨遥感目标检测网络}
-% 
+%
 %
 %\section{引言}
 %
